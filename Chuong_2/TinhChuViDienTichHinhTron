@@ -1,0 +1,10 @@
+#  Tính chu vi diện tích Hình tròn
+print("TÍNH CHU VI DIỆN TÍCH HÌNH TRÒN!")
+try:
+    bankinh = float(input("Mời nhập bán kính: "))
+    chuvi = 2*3.14*bankinh
+    dientich = 2*bankinh*3.14
+    print("Chu vi: ",chuvi)
+    print("Dientich: ",dientich)
+except:
+    print("Lỗi!")
